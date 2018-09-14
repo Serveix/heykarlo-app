@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">HeyKarlo</string>
+    <string name="title_activity_login">Iniciar sesión</string>
+
+    <!-- Strings related to login and register -->
+
+    <string name="prompt_email">Correo electronico</string>
+    <string name="prompt_user">Usuario</string>
+    <string name="prompt_password">Contraseña</string>
+    <string name="action_sign_in">Iniciar sesión</string>
+    <string name="action_sign_in_short">Iniciar</string>
+    <string name="error_invalid_email">El correo electronico es inválido</string>
+    <string name="error_invalid_password">La contraseña es demasiado corta</string>
+    <string name="error_incorrect_password">Esta contraseña es incorrecta</string>
+    <string name="error_field_required">No deje este campo vacío</string>
+    <string name="permission_rationale">"Se necesita permiso para acceder a sus contactos para
+        proveer el autocompletado de email"
+    </string>
+
+    <string name="title_activity_register">Registrarse</string>
+
+    <string name="prompt_name">Nombre</string>
+    <string name="prompt_age">Edad</string>
+    <string name="action_register">Registrarse</string>
+    <string name="action_register_short">Registrar</string>
+    <string name="error_invalid_name">El nombre es inválido</string>
+    <string name="error_invalid_username">El nombre de usuario es inválido</string>
+    <string name="error_invalid_age">La edad no es válida</string>
+    <string name="title_activity_home">HomeActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="prompt_home">Hola, usuario</string>
+
+    <string name="primaryKey">297bb9cf18b542e590cde3e5b69ef22f</string>
+
+</resources>

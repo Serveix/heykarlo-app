@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.karloservices.heykarlo.activities.StartMenuActivity">
+
+    <VideoView
+        android:id="@+id/bgVideoView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/colornegro"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:alpha="0.4"
+        app:layout_constraintBottom_toBottomOf="@+id/bgVideoView"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/bgVideoView"
+        app:srcCompat="@android:color/background_dark"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/loginBtn"
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginStart="4dp"
+        android:background="@android:color/holo_orange_light"
+        android:onClick="sendLoginForm"
+        android:text="Iniciar sesión"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/guideline6" />
+
+    <Button
+        android:id="@+id/registerBtn"
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginRight="0dp"
+        android:background="@android:color/white"
+        android:onClick="sendRegisterForm"
+        android:text="Registrarse"
+        android:textColor="@android:color/holo_orange_light"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="@+id/guideline6"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="354dp"
+        android:layout_height="165dp"
+        app:srcCompat="@drawable/logoheykarlo"
+        app:layout_constraintBottom_toTopOf="@+id/bgVideoView"
+        app:layout_constraintTop_toBottomOf="@+id/bgVideoView"
+        app:layout_constraintVertical_bias="0.6"
+        app:layout_constraintRight_toLeftOf="@+id/bgVideoView"
+        app:layout_constraintLeft_toRightOf="@+id/bgVideoView" />
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/guideline3"
+        app:layout_constraintGuide_begin="477dp"
+        android:orientation="horizontal"
+        tools:layout_editor_absoluteY="477dp"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <android.support.constraint.Guideline
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/guideline6"
+        app:layout_constraintGuide_begin="192dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteY="0dp"
+        tools:layout_editor_absoluteX="192dp" />
+
+</android.support.constraint.ConstraintLayout>
